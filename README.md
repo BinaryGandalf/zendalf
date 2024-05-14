@@ -13,4 +13,4 @@ The theme is not available on any package repositories. Therefore install by eit
 
 ## Preview
 
-![zendalf-theme](https://i.ibb.co/C248bqy/zendalf-theme.png)
+![zendalf-theme](https://i.postimg.cc/tCxwx1MD/zendalf-theme.png)
