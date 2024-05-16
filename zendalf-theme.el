@@ -732,10 +732,10 @@
                           ;;;;; ido-mode
                           `(ido-first-match
                             ((,class
-                              (:foreground ,yellow :weight bold))))
+                              (:foreground ,orange :weight bold))))
                           `(ido-only-match
                             ((,class
-                              (:foreground ,orange :weight bold))))
+                              (:inherit ido-first-match))))
                           `(ido-subdir
                             ((,class (:inherit font-lock-type-face))))
                           `(ido-indicator
