@@ -63,10 +63,7 @@
                             ((,class
                               (:foreground
                                ,yellow
-                               :background ,bg-1
-                               :box
-                               (:line-width -1 :style released-button)
-                               :extend t))))
+                               :background ,bg-1))))
                           `(highlight ((,class (:background ,bg-05))))
                           `(success
                             ((,class
@@ -133,8 +130,7 @@
                             ((,class
                               (:foreground
                                ,blue
-                               :weight bold
-                               :height 1.2))))
+                               :weight bold))))
                           `(custom-state
                             ((,class (:foreground ,green+4))))
 
@@ -184,11 +180,7 @@
                             ((,class
                               (:foreground
                                ,green+1
-                               :background ,bg-1
-                               :box
-                               (:line-width
-                                -1
-                                :style released-button)))
+                               :background ,bg-1))
                              (t :inverse-video t)))
                           `(mode-line-buffer-id
                             ((,class
@@ -197,11 +189,7 @@
                             ((,class
                               (:foreground
                                ,green-2
-                               :background ,bg-05
-                               :box
-                               (:line-width
-                                -1
-                                :style released-button)))))
+                               :background ,bg-05))))
                           `(region
                             ((,class (:background ,bg-1 :extend t))
                              (t :inverse-video t)))
@@ -732,7 +720,7 @@
                           ;;;;; ido-mode
                           `(ido-first-match
                             ((,class
-                              (:foreground ,orange :weight bold))))
+                              (:foreground ,yellow :weight bold))))
                           `(ido-only-match
                             ((,class
                               (:inherit ido-first-match))))
