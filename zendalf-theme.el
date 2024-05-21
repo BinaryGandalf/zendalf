@@ -143,6 +143,7 @@
    `(company-tooltip-common-selection ((,class (:foreground ,green+2))))
    `(company-preview ((,class (:background ,green+2))))
    `(company-preview-common ((,class (:foreground ,green+2 :background ,bg-1))))
+   `(company-template-field ((,class nil)))
 
    ;;;;; magit
    `(magit-section-highlight ((,class nil)))
