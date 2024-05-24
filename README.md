@@ -7,7 +7,7 @@ The theme is not available on any package repositories. Therefore install by eit
 ```
 ;; like e.g. use-package
 (use-package zendalf-theme
-  :vc (:url "https://github.com/BinaryGandalf/zendalf.git")
+  :vc (:url "https://github.com/NumericalGandalf/zendalf.git")
   :config (load-theme 'zendalf t))
 ```
 
